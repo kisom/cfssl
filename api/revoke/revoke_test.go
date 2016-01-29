@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/certdb"
-	"github.com/cloudflare/cfssl/certdb/testdb"
+	"github.com/kisom/cfssl/api"
+	"github.com/kisom/cfssl/certdb"
+	"github.com/kisom/cfssl/certdb/testdb"
 )
 
 func prepDB() (db *sql.DB, err error) {

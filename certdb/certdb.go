@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	cferr "github.com/cloudflare/cfssl/errors"
+	cferr "github.com/kisom/cfssl/errors"
 	"github.com/kisielk/sqlstruct"
 )
 

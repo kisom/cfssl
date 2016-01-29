@@ -6,10 +6,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/cloudflare/cfssl/cli"
-	"github.com/cloudflare/cfssl/cli/scan"
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/log"
+	"github.com/kisom/cfssl/cli"
+	"github.com/kisom/cfssl/cli/scan"
+	"github.com/kisom/cfssl/config"
+	"github.com/kisom/cfssl/log"
 )
 
 // main defines the scan usage and registers all defined commands and flags.

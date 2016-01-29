@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/cfssl/certdb/testdb"
+	"github.com/kisom/cfssl/certdb/testdb"
 )
 
 const (

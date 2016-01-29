@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/cloudflare/cfssl/cli"
+	"github.com/kisom/cfssl/cli"
 )
 
 // Version stores the semantic versioning information for CFSSL.

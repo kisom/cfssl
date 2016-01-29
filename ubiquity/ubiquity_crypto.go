@@ -6,7 +6,7 @@ import (
 	"crypto/elliptic"
 	"crypto/rsa"
 	"crypto/x509"
-	"github.com/cloudflare/cfssl/helpers"
+	"github.com/kisom/cfssl/helpers"
 	"math"
 )
 

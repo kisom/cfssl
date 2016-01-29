@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cloudflare/cfssl/crypto/pkcs11key"
+	"github.com/kisom/cfssl/crypto/pkcs11key"
 )
 
 type pkcs11UriTest struct {
@@ -92,7 +92,7 @@ func TestParseSuccess(t *testing.T) {
 }
 
 var pkcs11UriFails = []string{
-	"https://github.com/cloudflare/cfssl",
+	"https://github.com/kisom/cfssl",
 	"pkcs11:?pin-source=http://foo",
 	"pkcs11:?pin-source=file:testdata/nosuchfile",
 }

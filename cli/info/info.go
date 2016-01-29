@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/cloudflare/cfssl/api/client"
-	"github.com/cloudflare/cfssl/cli"
-	"github.com/cloudflare/cfssl/cli/sign"
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/info"
+	"github.com/kisom/cfssl/api/client"
+	"github.com/kisom/cfssl/cli"
+	"github.com/kisom/cfssl/cli/sign"
+	"github.com/kisom/cfssl/errors"
+	"github.com/kisom/cfssl/helpers"
+	"github.com/kisom/cfssl/info"
 
 	goerr "errors"
 )

@@ -6,12 +6,12 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"github.com/cloudflare/cfssl/certdb"
-	"github.com/cloudflare/cfssl/cli"
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/signer"
-	"github.com/cloudflare/cfssl/signer/universal"
+	"github.com/kisom/cfssl/certdb"
+	"github.com/kisom/cfssl/cli"
+	"github.com/kisom/cfssl/config"
+	"github.com/kisom/cfssl/log"
+	"github.com/kisom/cfssl/signer"
+	"github.com/kisom/cfssl/signer/universal"
 )
 
 // Usage text of 'cfssl sign'

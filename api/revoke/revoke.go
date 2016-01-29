@@ -7,10 +7,10 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/certdb"
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/ocsp"
+	"github.com/kisom/cfssl/api"
+	"github.com/kisom/cfssl/certdb"
+	"github.com/kisom/cfssl/errors"
+	"github.com/kisom/cfssl/ocsp"
 )
 
 // A Handler accepts requests with a serial number parameter

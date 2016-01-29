@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/cloudflare/cfssl/api"
+	"github.com/kisom/cfssl/api"
 )
 
 const (

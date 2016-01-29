@@ -3,7 +3,7 @@ package crl
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/cloudflare/cfssl/api"
+	"github.com/kisom/cfssl/api"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"

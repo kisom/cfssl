@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/cloudflare/cf-tls/tls"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/log"
+	"github.com/kisom/cfssl/helpers"
+	"github.com/kisom/cfssl/log"
 )
 
 var (

@@ -4,9 +4,9 @@ package certinfo
 import (
 	"net/http"
 
-	"github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/certinfo"
-	"github.com/cloudflare/cfssl/log"
+	"github.com/kisom/cfssl/api"
+	"github.com/kisom/cfssl/certinfo"
+	"github.com/kisom/cfssl/log"
 )
 
 // Handler accepts requests for either remote or uploaded

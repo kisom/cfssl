@@ -11,13 +11,13 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/csr"
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/signer"
-	"github.com/cloudflare/cfssl/signer/universal"
+	"github.com/kisom/cfssl/api"
+	"github.com/kisom/cfssl/config"
+	"github.com/kisom/cfssl/csr"
+	"github.com/kisom/cfssl/errors"
+	"github.com/kisom/cfssl/log"
+	"github.com/kisom/cfssl/signer"
+	"github.com/kisom/cfssl/signer/universal"
 )
 
 // CSRNoHostMessage is used to alert the user to a certificate lacking a hosts field.

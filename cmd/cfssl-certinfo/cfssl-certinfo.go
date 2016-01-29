@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cloudflare/cfssl/cli"
-	"github.com/cloudflare/cfssl/cli/certinfo"
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/log"
+	"github.com/kisom/cfssl/cli"
+	"github.com/kisom/cfssl/cli/certinfo"
+	"github.com/kisom/cfssl/config"
+	"github.com/kisom/cfssl/log"
 )
 
 // main defines the newkey usage and registers all defined commands and flags.

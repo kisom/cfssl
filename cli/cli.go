@@ -32,7 +32,7 @@ import (
 	"os"
 
 	"encoding/base64"
-	"github.com/cloudflare/cfssl/config"
+	"github.com/kisom/cfssl/config"
 )
 
 // Command holds the implementation details of a cfssl command.

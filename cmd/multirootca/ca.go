@@ -8,12 +8,12 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/cloudflare/cfssl/api/info"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/multiroot/config"
-	"github.com/cloudflare/cfssl/signer"
-	"github.com/cloudflare/cfssl/signer/local"
-	"github.com/cloudflare/cfssl/whitelist"
+	"github.com/kisom/cfssl/api/info"
+	"github.com/kisom/cfssl/log"
+	"github.com/kisom/cfssl/multiroot/config"
+	"github.com/kisom/cfssl/signer"
+	"github.com/kisom/cfssl/signer/local"
+	"github.com/kisom/cfssl/whitelist"
 )
 
 func parseSigner(root *config.Root) (signer.Signer, error) {

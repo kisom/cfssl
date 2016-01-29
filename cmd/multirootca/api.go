@@ -7,12 +7,12 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/auth"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/signer"
-	"github.com/cloudflare/cfssl/whitelist"
+	"github.com/kisom/cfssl/api"
+	"github.com/kisom/cfssl/auth"
+	"github.com/kisom/cfssl/helpers"
+	"github.com/kisom/cfssl/log"
+	"github.com/kisom/cfssl/signer"
+	"github.com/kisom/cfssl/whitelist"
 	metrics "github.com/cloudflare/go-metrics"
 )
 

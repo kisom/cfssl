@@ -5,13 +5,13 @@ import (
 	"crypto/x509"
 	"database/sql"
 
-	"github.com/cloudflare/cfssl/config"
-	cferr "github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/info"
-	"github.com/cloudflare/cfssl/signer"
-	"github.com/cloudflare/cfssl/signer/local"
-	"github.com/cloudflare/cfssl/signer/pkcs11"
-	"github.com/cloudflare/cfssl/signer/remote"
+	"github.com/kisom/cfssl/config"
+	cferr "github.com/kisom/cfssl/errors"
+	"github.com/kisom/cfssl/info"
+	"github.com/kisom/cfssl/signer"
+	"github.com/kisom/cfssl/signer/local"
+	"github.com/kisom/cfssl/signer/pkcs11"
+	"github.com/kisom/cfssl/signer/remote"
 )
 
 // Signer represents a universal signer which is both local and remote

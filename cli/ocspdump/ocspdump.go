@@ -6,9 +6,9 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/cloudflare/cfssl/certdb"
-	"github.com/cloudflare/cfssl/cli"
-	"github.com/cloudflare/cfssl/log"
+	"github.com/kisom/cfssl/certdb"
+	"github.com/kisom/cfssl/cli"
+	"github.com/kisom/cfssl/log"
 )
 
 // Usage text of 'cfssl ocspdump'

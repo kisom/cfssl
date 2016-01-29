@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cloudflare/cfssl/log"
+	"github.com/kisom/cfssl/log"
 )
 
 // UnlinkIfExists removes a file if it exists.

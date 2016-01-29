@@ -5,7 +5,7 @@ package certdb
 import (
 	"testing"
 
-	"github.com/cloudflare/cfssl/certdb/testdb"
+	"github.com/kisom/cfssl/certdb/testdb"
 )
 
 func TestPostgreSQL(t *testing.T) {

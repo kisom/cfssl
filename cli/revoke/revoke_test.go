@@ -6,9 +6,9 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/cloudflare/cfssl/certdb"
-	"github.com/cloudflare/cfssl/certdb/testdb"
-	"github.com/cloudflare/cfssl/cli"
+	"github.com/kisom/cfssl/certdb"
+	"github.com/kisom/cfssl/certdb/testdb"
+	"github.com/kisom/cfssl/cli"
 	"golang.org/x/crypto/ocsp"
 )
 

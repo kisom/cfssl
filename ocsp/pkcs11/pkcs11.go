@@ -6,12 +6,12 @@ package pkcs11
 
 import (
 	"io/ioutil"
-	"github.com/cloudflare/cfssl/crypto/pkcs11key"
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/ocsp"
-	ocspConfig "github.com/cloudflare/cfssl/ocsp/config"
+	"github.com/kisom/cfssl/crypto/pkcs11key"
+	"github.com/kisom/cfssl/errors"
+	"github.com/kisom/cfssl/helpers"
+	"github.com/kisom/cfssl/log"
+	"github.com/kisom/cfssl/ocsp"
+	ocspConfig "github.com/kisom/cfssl/ocsp/config"
 )
 
 // Enabled is set to true if PKCS #11 support is present.

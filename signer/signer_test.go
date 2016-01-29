@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cloudflare/cfssl/config"
+	"github.com/kisom/cfssl/config"
 )
 
 func TestAppendIf(t *testing.T) {

@@ -3,7 +3,7 @@ package scan
 import (
 	"testing"
 
-	"github.com/cloudflare/cfssl/cli"
+	"github.com/kisom/cfssl/cli"
 )
 
 var hosts = []string{"www.cloudflare.com", "google.com"}

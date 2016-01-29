@@ -8,7 +8,7 @@ import (
 	"crypto/rsa"
 	"crypto/x509"
 
-	cferr "github.com/cloudflare/cfssl/errors"
+	cferr "github.com/kisom/cfssl/errors"
 )
 
 // ParsePrivateKeyDER parses a PKCS #1, PKCS #8, or elliptic curve

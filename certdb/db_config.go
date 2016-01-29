@@ -6,8 +6,8 @@ import (
 	"errors"
 	"io/ioutil"
 
-	cferr "github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/log"
+	cferr "github.com/kisom/cfssl/errors"
+	"github.com/kisom/cfssl/log"
 	_ "github.com/lib/pq"           // import just to initialize Postgres
 	_ "github.com/mattn/go-sqlite3" // import just to initialize SQLite
 )

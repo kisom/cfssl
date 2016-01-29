@@ -16,12 +16,12 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cloudflare/cfssl/certdb"
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/helpers/derhelpers"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/whitelist"
+	"github.com/kisom/cfssl/certdb"
+	"github.com/kisom/cfssl/config"
+	"github.com/kisom/cfssl/helpers"
+	"github.com/kisom/cfssl/helpers/derhelpers"
+	"github.com/kisom/cfssl/log"
+	"github.com/kisom/cfssl/whitelist"
 
 	"github.com/cloudflare/redoctober/client"
 	"github.com/cloudflare/redoctober/core"

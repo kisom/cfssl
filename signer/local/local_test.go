@@ -15,11 +15,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/csr"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/signer"
+	"github.com/kisom/cfssl/config"
+	"github.com/kisom/cfssl/csr"
+	"github.com/kisom/cfssl/helpers"
+	"github.com/kisom/cfssl/log"
+	"github.com/kisom/cfssl/signer"
 )
 
 const (

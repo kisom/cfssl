@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/cfssl/helpers"
+	"github.com/kisom/cfssl/helpers"
 )
 
 const (

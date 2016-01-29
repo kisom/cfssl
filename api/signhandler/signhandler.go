@@ -7,11 +7,11 @@ import (
 	"math/big"
 	"net/http"
 
-	"github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/auth"
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/signer"
+	"github.com/kisom/cfssl/api"
+	"github.com/kisom/cfssl/auth"
+	"github.com/kisom/cfssl/errors"
+	"github.com/kisom/cfssl/log"
+	"github.com/kisom/cfssl/signer"
 )
 
 // A Handler accepts requests with a hostname and certficate

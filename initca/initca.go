@@ -15,13 +15,13 @@ import (
 	"net"
 	"time"
 
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/csr"
-	cferr "github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/signer"
-	"github.com/cloudflare/cfssl/signer/local"
+	"github.com/kisom/cfssl/config"
+	"github.com/kisom/cfssl/csr"
+	cferr "github.com/kisom/cfssl/errors"
+	"github.com/kisom/cfssl/helpers"
+	"github.com/kisom/cfssl/log"
+	"github.com/kisom/cfssl/signer"
+	"github.com/kisom/cfssl/signer/local"
 )
 
 // validator contains the default validation logic for certificate

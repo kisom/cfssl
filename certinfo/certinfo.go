@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudflare/cfssl/helpers"
+	"github.com/kisom/cfssl/helpers"
 )
 
 // Certificate represents a JSON description of an X.509 certificate.

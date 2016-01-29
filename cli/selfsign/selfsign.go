@@ -7,12 +7,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/cloudflare/cfssl/cli"
-	"github.com/cloudflare/cfssl/cli/genkey"
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/csr"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/selfsign"
+	"github.com/kisom/cfssl/cli"
+	"github.com/kisom/cfssl/cli/genkey"
+	"github.com/kisom/cfssl/config"
+	"github.com/kisom/cfssl/csr"
+	"github.com/kisom/cfssl/helpers"
+	"github.com/kisom/cfssl/selfsign"
 )
 
 var selfSignUsageText = `cfssl selfsign -- generate a new self-signed key and signed certificate

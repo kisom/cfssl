@@ -5,12 +5,12 @@ import (
 
 	"time"
 
-	"github.com/cloudflare/cfssl/certdb"
-	"github.com/cloudflare/cfssl/certdb/testdb"
-	"github.com/cloudflare/cfssl/cli"
+	"github.com/kisom/cfssl/certdb"
+	"github.com/kisom/cfssl/certdb/testdb"
+	"github.com/kisom/cfssl/cli"
 	"golang.org/x/crypto/ocsp"
 	"io/ioutil"
-	"github.com/cloudflare/cfssl/helpers"
+	"github.com/kisom/cfssl/helpers"
 )
 
 func TestOCSPRefreshMain(t *testing.T) {

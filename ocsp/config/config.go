@@ -4,7 +4,7 @@ package config
 
 import (
 	"time"
-	"github.com/cloudflare/cfssl/crypto/pkcs11key"
+	"github.com/kisom/cfssl/crypto/pkcs11key"
 )
 
 // Config contains configuration information required to set up an OCSP

@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/cloudflare/cf-tls/tls"
-	"github.com/cloudflare/cfssl/bundler"
+	"github.com/kisom/cfssl/bundler"
 )
 
 // Broad contains scanners for large swaths of TLS hosts on the internet.
